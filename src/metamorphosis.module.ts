@@ -3,7 +3,7 @@ import { ConversionService } from './metamorphosis.service';
 import { MetamorphosisPlugin } from '@fabio.formosa/metamorphosis';
 
 const ConversionServiceFactory = (logger : boolean | ((msg: string) => void) = false, plugins?: MetamorphosisPlugin[]) => ({
-  provide: 'ConversionService',
+  provide: ConversionService,
   useFactory: () =>  new ConversionService(logger, plugins)
 });
 
