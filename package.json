@@ -1,5 +1,5 @@
 {
-  "name": "@fabio.formosa/metamorphosis-nest",
+  "name": "@sleeyax/metamorphosis-nest",
   "version": "4.0.2",
   "description": "Conversion service for NestJS",
   "main": "dist/index.js",
