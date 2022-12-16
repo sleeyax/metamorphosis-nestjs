@@ -9,11 +9,11 @@
   },
   "peerDependencies": {
     "@typegoose/typegoose": "^9.2.0",
-    "@nestjs/common": "^8",
-    "@nestjs/core": "^8",
-    "@nestjs/testing": "^8",
+    "@nestjs/common": ">=8",
+    "@nestjs/core": ">=8",
+    "@nestjs/testing": ">=8",
     "reflect-metadata": "^0.1.13",
-    "@nestjs/typeorm": "^8",
+    "@nestjs/typeorm": ">=8",
     "rxjs": "^7.4.0"
   },
   "devDependencies": {
